@@ -1,0 +1,12 @@
+@NoteTaker_HostAddress = http://localhost:5193
+
+POST {{NoteTaker_HostAddress}}/new/
+Content-Type: application/json
+Accept: application/json
+
+{
+  "data":"Skibidi toilet",
+  "name": "Extrem"
+}
+###
+GET {{NoteTaker_HostAddress}}/get/5
